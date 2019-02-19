@@ -1,0 +1,6 @@
+# 별도로 입력화면이 없기 때문에 Postman을 통해 Post로 데이터를 전송하여 검증할 것임
+# Local 환경에서는 DB로 H2를 사용하기 때문에 Spring Boot에서 H2를 활셩화시키도록 옵션 추가 한 것
+spring:
+    h2:
+        console:
+            enabled: true
